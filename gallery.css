@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+  .container{
+  padding-top: 5px;
+  padding-bottom: 35px;
+  background-color: rgba(37, 216, 223, 0.274);
+  border-radius: 10px 10px 10px 10px;
+  margin-left: 75px;
+  margin-right: 75px;
+  position: absolute;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap:  5px;
+    padding: 5px;
+    opacity: 90%;
+}
+
+
+    
+
+.pic1 {
+    border: 3px solid white;
+    background-image: url(1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 500px;
+    height: 400px;
+}
+.pic2 {
+    border: 3px solid white;
+    background-image: url(2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 500px;
+    height: 400px;
+}
+.pic3 {
+    border: 3px solid white;
+    background-image: url(3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 500px;
+    height: 400px;
+}
+.pic4 {
+    border: 3px solid white;
+    background-image: url(4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 500px;
+    height: 400px;
+}
+.pic5 {
+    border: 3px solid white;
+    background-image: url(4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 500px;
+    height: 400px;
+}
+.pic6 {
+    border: 3px solid white;
+    background-image: url(4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 500px;
+    height: 400px;
+    
+}
+
+
+.pic1, .pic2, .pic3, .pic4, .pic5, .pic6{
+    justify-content: center;
+    align-items: center;
+    transition: 0.8s;
+    opacity: 1;
+}
+	.pic1:hover, .pic2:hover, .pic3:hover, .pic4:hover, .pic5:hover, .pic6:hover {
+		transform: translateY(-10px);
+        transform: scale(1.3);
+        opacity: 1;
+	}
